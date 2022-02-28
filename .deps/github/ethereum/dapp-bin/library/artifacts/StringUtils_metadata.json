@@ -1,0 +1,131 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_a",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_b",
+						"type": "string"
+					}
+				],
+				"name": "compare",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_a",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_b",
+						"type": "string"
+					}
+				],
+				"name": "equal",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_haystack",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_needle",
+						"type": "string"
+					}
+				],
+				"name": "indexOf",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"compare(string,string)": {
+					"details": "Does a byte-by-byte lexicographical comparison of two strings.",
+					"returns": {
+						"_0": "a negative number if `_a` is smaller, zero if they are equal and a positive numbe if `_b` is smaller."
+					}
+				},
+				"equal(string,string)": {
+					"details": "Compares two strings and returns true iff they are equal."
+				},
+				"indexOf(string,string)": {
+					"details": "Finds the index of the first occurrence of _needle in _haystack"
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".deps/github/ethereum/dapp-bin/library/stringUtils.sol": "StringUtils"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".deps/github/ethereum/dapp-bin/library/stringUtils.sol": {
+			"keccak256": "0x103140c2f94fb2e5ee6ace2cb3832dfb66a5b2df5a8a96dc0f4402a6487f5ca0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0f5523c9f136e73d2f026dfea70dd085a00458a204679557bddd12af3b09e4b1",
+				"dweb:/ipfs/QmRVkgwfa2H1CmovncJvyRUp5WcTHewLBQcJr3Uh4zr4jD"
+			]
+		}
+	},
+	"version": 1
+}
