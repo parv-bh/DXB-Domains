@@ -1,7 +1,7 @@
 pragma solidity ^0.8.0;
 // SPDX-License-Identifier: MIT
 
-import "./.deps/github/ethereum/dapp-bin/library/stringUtils.sol";
+import "./stringUtils.sol";
 import "./.deps/npm/@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "./.deps/npm/@openzeppelin/contracts/utils/Counters.sol";
 import "./.deps/npm/@openzeppelin/contracts/utils/Base64.sol";
