@@ -55,4 +55,7 @@ library StringUtils {
     		return -1;
     	}	
     }
+    function strlen(string calldata str) external pure returns(uint) {
+        return bytes(str).length;
+    }
 }
